@@ -1,0 +1,5 @@
+name: ZStructure
+version: '1.0'
+main: fr.leabar.zStructure.ZStructure
+api-version: '1.21'
+authors: [ Saiyuu ]
