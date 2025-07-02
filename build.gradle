@@ -58,9 +58,9 @@ publishing {
     publications {
         maven(MavenPublication) {
             from components.java
-            groupId = 'fr.leabar'
-            artifactId = 'ZStructure'
-            version = this.version
+            groupId = 'fr.leabar' as Publication
+            artifactId = 'ZStructure' as Publication
+            version = this.version as Publication
         }
     }
 }
