@@ -1,4 +1,4 @@
-package fr.leabar.zStructure;
+package fr.leabar.zstructure;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
