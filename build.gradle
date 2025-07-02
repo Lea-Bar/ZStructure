@@ -54,6 +54,17 @@ shadowJar {
 
 tasks.build.dependsOn tasks.shadowJar
 
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from components.java
+            groupId = 'fr.leabar'
+            artifactId = 'ZStructure'
+            version = this.version
+        }
+    }
+}
+
 wrapper {
     gradleVersion = "8.8"
     distributionType = Wrapper.DistributionType.ALL
