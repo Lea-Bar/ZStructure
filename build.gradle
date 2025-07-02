@@ -49,7 +49,7 @@ processResources {
 }
 
 shadowJar {
-    configurations = [project.configurations.implementation]
+    configurations = [project.configurations.runtimeClasspath]
 }
 
 tasks.build.dependsOn tasks.shadowJar
